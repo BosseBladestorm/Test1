@@ -8,9 +8,14 @@ public class Addidion : MonoBehaviour {
     int c = 0;
 	// Use this for initialization
 	void Start () {
-
+        // Puts c as the addition of a and b.
+        c = a + b;
+        // Prints out c
+        Debug.Log (c);
+        // adds togheter a and b and prints them.
         Debug.Log (a + b);
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
